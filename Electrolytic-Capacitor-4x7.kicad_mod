@@ -1,4 +1,4 @@
-(module Electrolytic-Capacitor-4x7 (layer F.Cu) (tedit 5ADF0E1E)
+(module Electrolytic-Capacitor-4x7 (layer F.Cu) (tedit 5AF0308A)
   (fp_text reference REF** (at 0 3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -45,7 +45,7 @@
   (pad A thru_hole roundrect (at 0.75 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)(roundrect_rratio 0.25))
   (pad K thru_hole circle (at -0.75 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask))
   (model ${KICAD_SYMBOL_DIR}/Passive.3dshapes/Capacitor-Electrolytic-4x7.step
-    (offset (xyz 0 0 0.3))
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )

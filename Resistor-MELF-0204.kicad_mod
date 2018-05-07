@@ -1,4 +1,4 @@
-(module Resistor-MELF-0204 (layer F.Cu) (tedit 5ADA4306)
+(module Resistor-MELF-0204 (layer F.Cu) (tedit 5AF015FB)
   (fp_text reference REF** (at 0 2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -10,8 +10,8 @@
   (pad 1 smd roundrect (at -1.575 0) (size 1.3618 1.6118) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
   (pad 2 smd roundrect (at 1.575 0) (size 1.3618 1.6118) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
   (model ${KICAD_SYMBOL_DIR}/Passive.3dshapes/Resistor-MELF-0204.stp
-    (offset (xyz 1.8 0 0.7))
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 90 0))
+    (rotate (xyz 0 0 0))
   )
 )
